@@ -1,7 +1,19 @@
+
 android/** linguist-vendored
+ios/** linguist-vendored
+build/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
 
 *.cpp linguist-vendored
+*.c linguist-vendored
+*.h linguist-vendored
+*.cc linguist-vendored
 CMakeLists.txt linguist-vendored
 
-build/** linguist-vendored
-ios/** linguist-vendored
+pubspec.lock linguist-generated
+*.g.dart linguist-generated
+*.freezed.dart linguist-generated
+
+*.dart linguist-detectable
